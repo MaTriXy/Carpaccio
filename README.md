@@ -3,6 +3,10 @@
 [![Android Arsenal](https://img.shields.io/badge/Android%20Arsenal-Carpaccio-brightgreen.svg?style=flat)](http://android-arsenal.com/details/1/2211)
 [![Join the chat at https://gitter.im/florent37/Carpaccio](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/florent37/Carpaccio?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
+<a href="https://play.google.com/store/apps/details?id=com.github.florent37.florent.champigny">
+  <img alt="Android app on Google Play" src="https://developer.android.com/images/brand/en_app_rgb_wo_45.png" />
+</a>
+
 Developed to facilitate integration on Android ( Designers can thanks me :D )
 
 ![logo](https://raw.githubusercontent.com/florent37/Carpaccio/master/screenshot/carpaccio_small.png)
@@ -14,7 +18,7 @@ You no longer need to extend a view to set a custom behavior
 
 Carpaccio also come with a beautiful mapping engine !
 
-#Usage
+# Usage
 
 ```xml
 <com.github.florent37.carpaccio.Carpaccio
@@ -45,7 +49,9 @@ Carpaccio also come with a beautiful mapping engine !
 
 ![url](https://raw.githubusercontent.com/florent37/Carpaccio/master/screenshot/sample_crop.png)
 
-#Download
+# Download
+
+<a href='https://ko-fi.com/A160LCC' target='_blank'><img height='36' style='border:0px;height:36px;' src='https://az743702.vo.msecnd.net/cdn/kofi1.png?v=0' border='0' alt='Buy Me a Coffee at ko-fi.com' /></a>
 
 Add into your **build.gradle**
 
@@ -59,7 +65,7 @@ compile ('com.github.florent37:carpaccio:(lastest version)@aar'){
 
 ------------
 
-#DataBinding
+# DataBinding
 
 ```xml
 <TextView
@@ -92,7 +98,7 @@ carpaccio.mapObject("user",new User("florent", "www."));
 
 ------------
 
-##RecyclerView Mapping
+## RecyclerView Mapping
 
 You dreamed it, Carpaccio did it ! You can now bind a List with a RecyclerView !
 
@@ -166,7 +172,7 @@ carpaccio.mapObject("header", this.headerObject);
 
 ------------
 
-#ViewControllers
+# ViewControllers
 
 Carpaccio provide some awesome ViewControllers, you can use them directly into your project.
 [Read the Wiki to have a list of all provided viewControllers](https://github.com/florent37/Carpaccio/wiki)
@@ -195,7 +201,7 @@ TextViewController can set a custom font (from assets/fonts/) to a TextView and 
 
 ------------
 
-##ImageViewController
+## ImageViewController
 
 ```xml
 <com.github.florent37.carpaccio.Carpaccio
@@ -259,23 +265,26 @@ And some awesome customisations
       " />
 ```
 
-#Community
+# Community
 
 Looking for contributors, feel free to fork !
 
 Tell me if you're using my library in your application, I'll share it in this README
 
-#Dependencies
+# Dependencies
 
 * [Picasso][picasso] (from Square)
 * [KenBurnsView][kenburnsview] (from flavioarfaria)
 * [Android-Observablescrollview][android-observablescrollview] (from ksoichiro)
 
-#Credits
+# Credits
 
 Author: Florent Champigny
 www.florentchampigny.com/
 
+<a href="https://play.google.com/store/apps/details?id=com.github.florent37.florent.champigny">
+  <img alt="Android app on Google Play" src="https://developer.android.com/images/brand/en_app_rgb_wo_45.png" />
+</a>
 <a href="https://plus.google.com/+florentchampigny">
   <img alt="Follow me on Google+"
        src="https://raw.githubusercontent.com/florent37/DaVinci/master/mobile/src/main/res/drawable-hdpi/gplus.png" />
